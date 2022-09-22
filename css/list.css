@@ -1,0 +1,118 @@
+/* 列表页专有 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    width: 71px;
+    height: 32px;
+}
+.nav_hd ul li {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 29px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.nav_bd ul li a {
+    float: left;
+    height: 46px;
+    line-height: 47px;
+    padding: 0 23px;
+    font-size: 14px;
+}
+.nav_bd ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_hd {
+    height: 120px;
+    margin-bottom: 25px;
+}
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid #fff;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+.sk_bd ul li .pic {
+    width: 283px;
+    height: 290px;
+    background: url(../upload/pic.png);
+}
+.sk_bd ul li p {
+    font-size: 14px;
+    padding: 0 12px;
+    color: #747474;
+}
+.price {
+    height: 32px;
+    margin-top: 15px;
+    padding-left: 12px;
+}
+.price span {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 10px;
+}
+.price span:first-child {
+    font-size: 22px;
+    color: #e60012;
+}
+.price span:last-child {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+.sale {
+    height: 30px;
+    line-height: 30px;
+}
+.sale .c {
+    float: left;
+    width: 133px;
+    height: 13px;
+    margin: 9px 6px;
+    border-radius: 6px;
+    border: 1px solid #e60012;
+}
+.sale .c .c_son {
+    width: 87%;
+    height: 100%;
+    background-color: #e60012;
+}
+.sale::before {
+    float: left;
+    content: '已售87%';
+    padding-left: 12px;
+    font-size: 14px;
+    color: #989898;
+}
+.sale::after {
+    float: left;
+    content: '剩余27件';
+    font-size: 14px;
+    color: #989898;
+}
+.sk_bd ul li button {
+    width: 288px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #b1191a;
+}

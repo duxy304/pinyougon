@@ -1,0 +1,309 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow_l,
+.arrow_r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    font-family: 'icomoon';
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 2px;
+    z-index: 999;
+}
+
+.arrow_l {
+    left: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.arrow_r {
+    right: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.promo_nav {
+    position: absolute;
+    bottom: 15px;
+    left: 25%;
+    margin-left: -36px;
+    width: 72px;
+    height: 15px;
+    border-radius: 7px;
+    z-index: 999;
+}
+
+.promo_nav li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.promo_nav .selected {
+    background-color: #fff;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news_hd {
+    height: 34px;
+    padding: 0 15px;
+    line-height: 34px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news_hd h4 {
+    float: left;
+    font-size: 14px;
+}
+
+.news_hd .more {
+    float: right;
+}
+
+.news_hd .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+    padding-left: 8px;
+}
+
+.news_bd {
+    padding-left: 15px;
+    /* padding-top: 10px; */
+}
+
+.news_bd ul li {
+    padding-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    padding-top: 12px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+}
+
+.lifeservice ul li:nth-child(1) i {
+    background: url(../images/icons.png) no-repeat -16px -14px;
+}
+
+.lifeservice ul li:nth-child(2) i {
+    background: url(../images/icons.png) no-repeat -79px -18px;
+}
+
+.lifeservice ul li:nth-child(3) i {
+    background: url(../images/icons.png) no-repeat -140px -17px;
+}
+
+.lifeservice ul li:nth-child(4) i {
+    background: url(../images/icons.png) no-repeat -205px -18px;
+}
+
+.lifeservice ul li:nth-child(5) i {
+    background: url(../images/icons.png) no-repeat -15px -88px;
+}
+
+.lifeservice ul li:nth-child(6) i {
+    background: url(../images/icons.png) no-repeat -77px -87px;
+}
+
+.lifeservice ul li:nth-child(7) i {
+    background: url(../images/icons.png) no-repeat -139px -87px;
+}
+
+.lifeservice ul li:nth-child(8) i {
+    background: url(../images/icons.png) no-repeat -205px -86px;
+}
+
+.lifeservice ul li:nth-child(9) i {
+    background: url(../images/icons.png) no-repeat -15px -159px;
+}
+
+.lifeservice ul li:nth-child(10) i {
+    background: url(../images/icons.png) no-repeat -77px -158px;
+}
+
+.lifeservice ul li:nth-child(11) i {
+    background: url(../images/icons.png) no-repeat -141px -158px;
+}
+
+.lifeservice ul li:nth-child(12) i {
+    background: url(../images/icons.png) no-repeat -206px -161px;
+}
+
+.bargain {
+    padding-top: 7px;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recom_hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    line-height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    content: '';
+    width: 1px;
+    height: 143px;
+    background-color: #ddd;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.box_bd {
+    height: 361px;
+
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    margin-right: 10px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    line-height: 33px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    /* 一般情况下，a如果包含有宽度的盒子，需要将a转换为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
